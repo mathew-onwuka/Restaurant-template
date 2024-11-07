@@ -1,0 +1,446 @@
+* {
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body, h1, ul{
+
+	margin: 0;
+	font-family: Tahoma, sans-serif;
+	padding: 0;
+}
+ .row{
+	height: 647px;
+	background-image: url(../img/fried.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 3px solid #ff634f;
+
+
+}
+.row .social{
+	position: fixed;
+	right: 0px;
+	top: 20%;
+	
+}
+.row .social img{
+	width: 70%;
+	height: auto;
+	margin-bottom: 10px;
+	box-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+}
+.row .slider .slide .heading{
+	width: 100%;
+	text-align: center;
+	margin-top: 200px;
+
+}
+.row .slider .slide .heading h1{
+	font-size: 80px;
+	text-shadow: 4px 2px 2px #ff634f;
+}
+.row .slider .slide .heading p{
+	font-size: 28px;
+	font-family: "comic sans-serif";
+	font-weight: bold;
+	font-style: italic;
+	background-color: rgba(255, 255, 250, 0.4);
+}
+
+.head{
+	margin-left: 8.33%;
+	background-color: rgba(255, 255, 250, 0.7);
+	margin-top: -5%;
+	height: 70px;
+	align-items: center;
+	text-align: center;
+	border-bottom: 11px solid #fff;
+	
+
+}
+
+ .head nav{
+	width: 80%;
+	height: 100%;
+	margin-left: 16.66%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+
+}
+
+.head nav ul li{
+	float: left;
+	display: inline-block;
+	list-style-type: none;
+	height: 100%;
+}
+
+.head nav ul li a{
+
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-size: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	display: block;
+	height: 100%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-top: -15px;
+	
+}
+
+
+.head nav ul li a:hover{
+	height: 100%;
+	width: 100%;
+	color: #ff634f;
+	text-shadow: 2px 1px 4px #ff634f;
+}
+
+ .menu{
+
+	min-height: 620px;
+	margin-left: 8.3%;
+	background-color: rgba(255, 255, 250, 0.6);
+}
+ .menu h1{
+ 	color: #000;
+ 	text-align: center;
+ 	margin-bottom: 20px;
+ }
+ .menu h1:first-letter{
+ 	font-weight: bold;
+ 	font-size: 26px;
+ 	color: #ff634f;
+ }
+ .menu .menu-box{
+	.border: 1px solid #f6f6f6;
+	height: 200px;
+	margin: 0px;
+}
+ .menu .menu-box img{
+	width: 100%;
+	height: 98%;
+	.margin-left: 0.5%;
+	.margin-top: 2%;
+}
+.button{
+	position: relative;
+	z-index: 0;
+	left: 83.33%;
+	top: 10px;
+}
+.button p{
+	color: #f6f6f6;
+	font-size: 18px;
+	border: 2px solid #ff634f;
+	border-radius: 5px;
+	width: 150px;
+	height: 35px;
+	padding: 5px;
+	font-family: "sans-serif comic";
+	font-weight: bold;
+	box-shadow: 2px 1px 10px #000;
+	background-color: red;
+	text-align: center;
+
+}
+
+.button:hover .side{
+display: block;
+
+
+}
+.button .side{
+	height: 200px;
+	background-color: #f6f6f6;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	left: 2%;
+	top: 20px;
+	border-top-left-radius: 10px;
+	display: none;
+	box-shadow: 4px 2px 50px #ddd;
+	border-left: 2px solid #ff634f;
+	border-bottom: 2px solid #ff634f;
+
+}
+.button .side p{
+	text-align: center; 
+	text-transform: capitalize;
+	color: #000;
+	font-size: 16px;
+	border: 1px solid #ff634f;
+	border-radius: 2px;
+	width: 150px;
+	height: 35px;
+	padding: 5px;
+	font-family: verdana;
+	font-weight: bold;
+	box-shadow: 2px 1px 2px #000;
+	background-color: #fff;
+}
+.button .side .order{
+	background-color: #ff634f;
+	border-radius: 2px solid #ff634f;
+	color: #f6f6f6;
+	text-align: center;
+	border: 2px solid #ff634f;
+	width: 150px;
+	box-shadow: 2px 1px 1px #ddd;
+} 
+.button .side .order a{
+	text-decoration: none;
+	color: #f6f6f6;
+	text-shadow: 2px 1px 1px #000;
+	height: 30px;
+	width: 100px;
+	padding: 10px;
+	font-size: 16px;
+	font-style: tahoma;
+	font-weight: bold;
+}
+.intro{
+	height: 690px;
+	background-image: url(../img/blue.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: 3px solid #ff634f;
+	border-bottom: 3px solid #ff634f;
+
+}
+.intro .about{
+	height: 80%;
+	bottom: 1px solid #000;
+	float: left;
+	display: inline-block;
+}
+.intro .about h1{
+	font-family: tahoma;
+	text-align: center;
+}
+
+.intro .about h1:first-letter{
+	color: #ff634f;
+	font-size: 35px;
+}
+.intro .about p{
+	text-align: justify;
+	font-family: "sans-serif ms";
+	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+}
+.events{
+	margin-left: 8.33%;
+	height: 600px;
+	text-align: justify;
+}
+.events h1{
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 5px;
+	margin-top: 30px;
+	border-bottom : 1px solid #ccc;
+	padding-bottom: 35px;
+}
+.events h1:first-letter{
+	color: #ff634f;
+}
+.events .event{
+/*	border-top : 1px solid #ccc;*/
+	border-bottom : 1px solid #ccc;
+	margin-bottom: 10px;
+	height: 280px;
+}
+
+.events .event .event-img{
+	height: 250px;
+	float: left;	
+}
+.events .event .event-img img{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.events .event .event-word{
+	height: 250px;
+}
+.events .event .event-word p{
+	margin: 0;
+	padding: 10px;
+}
+.events {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.recipes{
+	margin-left: 8.33%;
+	min-height: 600px;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+.recipes h1{
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 5px;
+	margin-top: 30px;
+	border-bottom : 1px solid #ccc;
+	padding-bottom: 35px;
+}
+.recipes h1:first-letter{
+	color: #ff634f;
+}
+.recipes .recipe{
+	margin-bottom: 10px;
+	height: 280px;
+}
+.recipes .recipe img{
+	height: 85%;
+}
+.recipes .recipe p{
+	text-align: center;
+	font-family: tahoma;
+	font-size: 18px;
+}
+.contact{
+	height: 900px;
+	background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ 	background-blend-mode: screen;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: 5px solid #ff634f;
+	padding-bottom: 30px;
+	margin-top: 20px;
+}
+.contact h1{
+	text-align: center;
+	text-shadow: 1px 1px 1px #3a3a3a;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.contact h1:first-letter{
+	border-bottom: 2px solid #ff634f;
+}
+.contact .formdata{
+	margin-top: 30px;
+	text-shadow: 1px 1px 1px #3a3a3a;
+	height: 80%;
+	width: 52%;
+	border: 1px solid #ddd;
+ 	margin-left: 24.5%;
+ 	background-color: #f6f6f6;
+ 	border-radius: 2px;
+ 	box-shadow: 1px 1px 10px #fff;
+ 	margin-bottom: 50px;
+}
+.contact .formdata fieldset{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 2.5%;
+	margin-bottom: 4.5% 
+	height: 85%;
+	border: 1px solid red;
+	border-radius: 10px;
+	padding-top: 20px;
+}
+.contact .formdata fieldset label{
+	margin-left: 46px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.contact .formdata fieldset:last-child{
+	height: 100px;
+}
+.contact .formdata fieldset input[type="text"]{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 30px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #ff634f;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 16px;
+	
+}
+.contact .formdata fieldset input[type="email"]{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 30px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #ff634f;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 16px;
+}
+.contact .formdata fieldset textarea{
+	height: 120px;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
+	border-radius: 5px;
+	background: none;
+	border: none;
+	border: 1px solid #ff634f;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 16px;
+}
+.contact .formdata input[type="submit"]{
+	width: 20%;
+	height: 35px;
+	margin-top: 20px;
+	border-radius: 10px;
+	background-color: rgba(000, 000, 000, 0.8);
+	color: #fff8df;
+	box-shadow: 1px 1px 10px #fff;	
+	margin-left: 40%;
+	font-size: 20px; 
+}
+.contact .formdata input[type="submit"]:hover{
+	background-color: #f6f6f6;
+	color: #ff634f;
+	box-shadow: 4px 2px 10px #000;
+	cursor: pointer;
+}
+.contact {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer #foot{
+	width: 100%;
+	text-align: center;
+	font-family: verdana;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #ff634f; 
+	color: #fff;
+	margin-top: 0px;	
+}
