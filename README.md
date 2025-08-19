@@ -18,12 +18,17 @@ Google Fonts – for modern typography
 Font Awesome – for icons (if used)
 
 🗂️ Project Structure:
+
 delish-bites/
+
 ├── index.html
+
 ├── css/
 │   └── style.css
+
 ├── images/
 │   └── (logo, food images, interior shots)
+
 
 🖼️ Pages and Features:
 1. Homepage (index.html)
