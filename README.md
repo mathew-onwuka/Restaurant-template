@@ -24,9 +24,11 @@ delish-bites/
 ├── index.html
 
 ├── css/
+
 │   └── style.css
 
 ├── images/
+
 │   └── (logo, food images, interior shots)
 
 
